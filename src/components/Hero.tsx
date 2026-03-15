@@ -9,14 +9,13 @@ const Hero = () => (
         transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
       >
         <p className="text-sm uppercase tracking-widest text-muted-foreground mb-6 font-mono-data">
-          Consultoria em Enriquecimento Ambiental
+          Consultoria em enriquecimento ambiental para aves em cativeiro
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-semibold text-foreground leading-[1.1] mb-8">
-          Ciência aplicada ao{" "}
-          <span className="text-primary">bem-estar</span> da sua ave.
+          <span className="text-primary">Despertando</span> o natural.
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          Consultoria técnica em enriquecimento ambiental para transformar recintos em habitats vivos. Seu recinto não é apenas um espaço — é um ecossistema.
+          Ambientes que estimulam natureza no comportamento.
         </p>
         <a
           href="#diagnostico"

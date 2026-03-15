@@ -16,8 +16,8 @@ const DiagnosticForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", form);
-    alert("Diagnóstico solicitado com sucesso! Entraremos em contato.");
+    const message = `Olá! Gostaria de solicitar um diagnóstico técnico.%0A%0A*Espécie:* ${form.especie}%0A*Quantidade:* ${form.quantidade}%0A*Asas:* ${form.asas}%0A*Patologias:* ${form.patologias || "Nenhuma"}%0A*Espaço disponível:* ${form.espaco} m²`;
+    window.open(`https://wa.me/5500000000000?text=${message}`, "_blank");
   };
 
   const inputClasses =
